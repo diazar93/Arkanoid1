@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- 
+			Autor: Alberto Díaz Arenas
+			Módulo: Desarrollo de Interfaces
+			Grado: Desarrollo de Aplicaciones Multiplataforma
+			Instituto: IES Virgen de la Paloma		
+		-->
+		<meta charset="utf-8"/>
+		<title> Albertoid v1.0 </title>
+		<link rel="stylesheet" type="text/css" href="css_albertoid.css">
+		<script src="js_albertoid.js"></script>
+	</head>
+	
+	<body>
+	
+		<div id="campo">
+			<div id="pelota"></div>
+			<div id="barra"></div>
+		</div>	
+
+		<audio id="sonidoMenu" loop>
+			<source src="starwars.mp3" type="audio/mpeg">
+		</audio>
+		
+		<audio id="sonidoChoqueBarra">
+			<source src="blaster.mp3" type="audio/mpeg">
+		</audio>
+		
+		<audio id="sonidoRomperBloque">
+			<source src="breakstone.mp3" type="audio/mpeg">
+		</audio>
+		
+		<audio id="sonidoVictoria">
+			<source src="victoria.mp3" type="audio/mpeg">
+		</audio>
+		
+		<audio id="sonidoDerrota">
+			<source src="derrota.mp3" type="audio/mpeg">
+		</audio>
+		
+		<audio id="sonidoDerrota1">
+			<source src="derrota1.mp3" type="audio/mpeg">
+		</audio>
+	
+		<div id="datos">
+			<h3>Puntuación: <span id="puntuacion"></span></h3>
+			<h3>Número de vidas: <span id="numVidas"></span></h3>
+			<h3>Coordenada X del ratón: <span id="coordenadaXraton"></span></h3>
+			<h3>Coordenada Y del ratón: <span id="coordenadaYraton"></span></h3>
+			<h3>Coordenada X de la barra: <span id="coordenadaXbarra"></span></h3>
+			<h3>Coordenada X de la pelota: <span id="coordenadaXpelota"></span></h3>
+			<h3>Coordenada Y de la pelota: <span id="coordenadaYpelota"></span></h3>
+		</div>		
+		
+	</body>
+</html>

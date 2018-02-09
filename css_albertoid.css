@@ -1,0 +1,41 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+/*
+Autor: Alberto Díaz Arenas
+Módulo: Desarrollo de Interfaces
+Grado: Desarrollo de Aplicaciones Multiplataforma
+Instituto: IES Virgen de la Paloma
+*/
+
+#campo {
+	position: absolute;
+	width: 450px;
+	height: 650px;
+	background-image: url("./fondo.jpg");
+}
+
+#pelota {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	background-color: #00FFF9
+}
+
+#barra {
+	position: absolute;	
+	width: 78px;
+	height: 20px;
+	border-radius: 20%;
+	background-color: #A00000;
+}
+
+#datos {
+	position: absolute;
+	margin: auto;
+	padding: 20px;
+	border: 3px solid purple;
+}
